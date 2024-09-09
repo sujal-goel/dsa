@@ -10,8 +10,10 @@ Explanation: 0s 1s and 2s are segregated into ascending order.
 Input: arr[] = [0, 1, 0]
 Output: 0 0 1
 Explanation: 0s 1s and 2s are segregated into ascending order.
+using dutch nationalflag algorithm
 Expected Time Complexity: O(n)
 Expected Auxiliary Space: O(1)
+
 */
 void sort012(vector<int>& arr) {
         int low=0,mid=0,high=arr.size()-1;
